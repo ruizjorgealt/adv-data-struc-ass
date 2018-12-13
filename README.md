@@ -2,9 +2,9 @@
 
 Programming assignments/projects for COMP 282
 
-Each assignment focuses on a data type and its proper implementation to perform process.
+Each assignment focuses on a data structure and its proper implementation.
 
-The data types/structures constructed in the assignments are:
+The data structures constructed in the assignments are:
 1. Project1 – 
 2. Project2 –
 3. Project3 –
