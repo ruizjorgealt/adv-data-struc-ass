@@ -1,0 +1,8 @@
+Create and test a Graph class based on the specifications below.  The Graph class should create a directed weighted graph using an adjacency list representation.  Assume that the weights are positive integers.
+The Graph class should  implement the following constructor and graph algorithms following specifications below. 
+
+Graph constructor
+• printGraph method
+• Depth first search traversal method
+• dijkstraShortestPaths method that implements Dijkstra’s algorithm for finding shortest (cheapest) paths 
+ printshortestPaths

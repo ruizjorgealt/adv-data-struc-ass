@@ -1,0 +1,3 @@
+In this project you will modify the binary search tree code that is POSTED ON CANVAS in a file called BST.java. You will add a new data field to BSTNode and new methods to BSTNode and BST. Note that the BST and BSTNode are generic. Also note that the BST does not allow duplicate items.
+
+Add a int height data field in the BSTNode<E> . Modify the constructors to initialize height to 0. Modify insert and delete methods to maintain the height fields in all nodes after every insert and remove/delete. Do this by doing an “ancestor walk from the newly inserted node to the root or from the parent of the deleted node to the root. This update must be done in time proportional to the height of the tree.
