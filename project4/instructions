@@ -1,0 +1,7 @@
+Create a height-balanced binary search tree class called AVLTree. You will have to implement the AVLNode class and the AVLTree class using the specifications below. Put both classes in a file called AVLTree.java
+
+Change the names of your BST and BSTNode classes and related variable types in your Project 3 BST.java file to AVLTree and AVLNode.
+
+Add a recursive private boolean isHeightBalanced( AVLNode t) method and a public boolean isHeightBalanced() method to your AVLTree class. The recursive method determines if the subtree at t is height balanced. The public method determines if the tree starting at root is height balanced.
+
+Add in a private method private AVLNode<E> restructure (AVLNode<E> t) that will be used to maintain the AVL height-balance after every insert and delete. Test code.

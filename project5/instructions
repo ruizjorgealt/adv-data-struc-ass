@@ -1,0 +1,16 @@
+In this project you will use the Hashtable<K, V> data structure in the Java API to solve a variety of problems that can efficiently be solved using hash tables. Hashtable<K,V> is the hash table in Java that we will be using.
+
+Problem 1:
+Create a static Java method that creates a random array of n integers in the interval [1...limit] with the option of allowing duplicates or not. If the argument nodups = true, then no duplicates are allowed; if nodups = false, then duplicates are allowed. The signature of your method should be public static int[] randomIntArray( int n, int limit, boolean nodups)
+
+You must use a hashtable to efficiently solve the problem of checking for duplicates. If you generate a duplicate, you need to get another number. Use Random to generate random numbers.
+
+Problem 2:
+Create a static Java method that finds the integers that appear on both of two lists of integers. That is, given list1 and list2, it returns an ArrayList<Integer> that contains all integers that belong to both list1 and list2. It should work on lists with and without duplicates. The signature of your method should be public static ArrayList<Integer> numbersInCommon( int[] list1, int[] list2)
+
+You must use a hashtable to efficiently solve this problem. The runtime of the solution should be O(n + m) where n = list1.length and m = list2.length.
+
+Problem 3:
+PairSum Problem: Given a list of unique positive integers and an integer d, find all pairs x, y in the list such that x + y = d. Here x should not equal y. Create a static Java method to solve the PairSum Problem by finding all pairs x and y in the list that sum to d. Return an ArrayList of Tuples that sum to d. The signature of your method should be public static ArrayList<Tuple> pairSum( int[] nums, int d)
+
+You must use a hashtable to efficiently solve this problem. The runtime of your solution should be O(n) where n= number of integers in the list. A solution that simply adds all possible pairs of the numbers and compares them with d does not satisfy the problem. That is a O(n2) solution.

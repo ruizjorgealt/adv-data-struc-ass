@@ -1,0 +1,3 @@
+Write a java main program that creates an ArrayList<String> and a LinkedList<String>. Experiment with the add, remove, get, set, size, print and sort methods of ArrayList and LinkedList. For the sort method for Strings use the StringComparator.
+
+Add a static method that removes all strings of size <=n from an ArrayList of Strings. The signature of your method must be public static void removeSmall(ArrayList<String> list, int n) . Test your method for various n and various lists.
