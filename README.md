@@ -1,4 +1,4 @@
-# adv-data-struc-ass
+# adv-data-struc-assignments
 
 Programming assignments/projects for COMP 282
 
